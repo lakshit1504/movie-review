@@ -1,0 +1,24 @@
+.header{
+    margin: 0;
+    padding: 0.5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.headerLeft{
+    display: flex;
+    align-items: center;
+
+    >a{
+        margin-left: 1vw;
+        >img{
+            width: 80px;
+            background-repeat: 5px;
+            margin: 0;
+            padding: 0 2px;
+            
+        }
+    }
+}
